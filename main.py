@@ -1,7 +1,7 @@
-from service.average_value_per_date import average_value_per_date
-from service.get_data_from_openaq import get_data_from_openaq
-from service.pm25_foreach_location import pm25_foreach_location
-from service.average_value_of_each_polutant_per_date import average_value_per_each_polutant_per_date
+from Services.average_value_per_date import average_value_per_date
+from Services.get_data_from_openaq import get_data_from_openaq
+from Services.pm25_foreach_location import pm25_foreach_location
+from Services.average_value_of_each_polutant_per_date import average_value_per_each_polutant_per_date
 
 
 base_url = 'https://api.openaq.org/v2/measurements'
